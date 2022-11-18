@@ -14,11 +14,14 @@ body{
 p ,h3{
     margin: 4px;
 }
-img{
-    border: 3px solid white;
+.profile-card img{
+    border: 2px solid rgb(77, 77, 77);
+    margin: auto;
     width: 86px;
     height: 86px;
+    object-fit: cover;
     border-radius: 50%;
+    box-shadow: 0 10px 60px -10px #bdbdbd;
     
 }
 
@@ -44,27 +47,82 @@ img{
     box-shadow: 3px 3px 1em 1px #bdbdbd;
 
 }
+
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
 ul{
     padding: 0;
     margin: 0;
 }
+
 .informacoes li {
-    padding-top: 15px;
+    padding-top: 25px;
     display: inline-block;
     color:rgb(46, 46, 46);
-
+    
 }
-.infocima{
+
+.infocima {
     font-size: 20px;
     font-weight: bold;
 }
-.infobaixo
-{
-    font-size: 12px;
+
+.infobaixo {
+    font-size: 16px;
     opacity: 0.6;
 }
 
-footer{
+.icon-tabler-brand-github{
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 1px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+
+.icon-tabler-brand-github:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 6em #464646;
+}
+
+.icon-tabler-brand-instagram{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: solid;
+    color: #ee609c;
+    border-width: 0.5px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+}
+
+.icon-tabler-brand-instagram:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5em #7e7e7e;
+}
+
+.icon-tabler-brand-linkedin{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: solid;
+    color: rgb(50, 117, 243);
+    background-color: rgb(50, 117, 243) ;
+    border-width: 1px;
+    border-radius: 50%;
+
+}
+
+.icon-tabler-brand-linkedin:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 6em #464646;
+}
+
+footer {
     /* text-align: center; */
     color:rgba(0, 0, 0, 0.986);
     font-size: 12px;
