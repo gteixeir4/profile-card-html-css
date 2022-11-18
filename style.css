@@ -48,11 +48,6 @@ p ,h3{
 
 }
 
-.social{
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-}
 
 ul{
     padding: 0;
@@ -76,6 +71,16 @@ ul{
     opacity: 0.6;
 }
 
+.social{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+h2{
+    font-size: 16px;
+}
+
 .icon-tabler-brand-github{
     padding-top: 3px;
     padding-bottom: 2px;
@@ -88,7 +93,7 @@ ul{
 
 .icon-tabler-brand-github:hover{
     transform: scale(1.1);
-    box-shadow: 0 0 6em #464646;
+    box-shadow: rgb(38, 57, 77) 0px 10px 30px -10px;
 }
 
 .icon-tabler-brand-instagram{
@@ -103,15 +108,15 @@ ul{
 
 .icon-tabler-brand-instagram:hover{
     transform: scale(1.1);
-    box-shadow: 0 0 5em #7e7e7e;
+    box-shadow: rgb(38, 57, 77) 0px 10px 30px -10px;
 }
 
 .icon-tabler-brand-linkedin{
     padding-top: 2px;
     padding-bottom: 2px;
     border: solid;
-    color: rgb(50, 117, 243);
-    background-color: rgb(50, 117, 243) ;
+    color:#04befe;
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
     border-width: 1px;
     border-radius: 50%;
 
@@ -119,7 +124,7 @@ ul{
 
 .icon-tabler-brand-linkedin:hover{
     transform: scale(1.1);
-    box-shadow: 0 0 6em #464646;
+    box-shadow: rgb(38, 57, 77) 0px 10px 30px -10px;
 }
 
 footer {
